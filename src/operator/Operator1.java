@@ -5,15 +5,15 @@ public class Operator1
     public static void main(String[] args)
     {
         // 변수 초기화
-        int a= 5;
+        int a = 5;
         int b = 2;
 
         //  덧셈
-        int sum = a + b;
+        int sum = a + b; //7
         System.out.println("a + b = " + sum); // 출력 값 (a + b = 7)
 
         // 뺄셈
-        int diff = a - b;
+        int diff = a - b; // 
         System.out.println("a - b = " + diff); // 출력 값 (a - b = 3)
 
         // 곱셈

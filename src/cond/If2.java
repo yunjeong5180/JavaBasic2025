@@ -1,0 +1,25 @@
+package cond;
+
+public class If2
+{ // else문
+    // else 문은 if 문에서 만족하는 조건이 없을 때 실행
+    // if (condition)
+    // {
+    //    조건이 참일 때 실행되는 코드
+    // } else
+    // {
+    //    만족하는 조건이 없을 때 실행되는 코드
+    // }
+
+    public static void main(String[] args) {
+        int age = 7;
+
+        if (age >= 18) {
+            System.out.println("성인입니다.");
+        } else {
+            System.out.println("미성년자입니다.");
+        }
+
+    }
+
+}

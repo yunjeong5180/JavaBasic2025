@@ -19,6 +19,8 @@ public class Ex8
         boolean denial = !(p < 10); // true (p는 10보다 크다 하지만 반대로
         System.out.println("denial = " + denial);
 
+
+
     }
 
 }
