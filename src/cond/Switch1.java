@@ -1,6 +1,6 @@
 package cond;
 
-public class Swiych1
+public class Switch1
 { // 다음 문제를 코드로 풀어보자
     // 당신은 회원 등급에 따라 다른 쿠폰을 발급하는 프로그램을 작성해야 한다.
     //이 프로그램은 int grade 라는 변수를 사용하며, 회원 등급( grade )에 따라 다음의 쿠폰을 발급해야 한다.
@@ -15,6 +15,24 @@ public class Swiych1
 
     public static void main(String[] args)
     {
+        int grade = 1;
+
+        int coupoun;
+        if (grade == 1)
+        {
+            coupoun = 1000;
+        } else if (grade == 2)
+        {
+            coupoun = 2000;
+        } else if (grade == 3)
+        {
+            coupoun = 3000;
+        } else
+        {
+            coupoun = 500;
+        }
+        System.out.println("발급받은 쿠폰: "+ coupoun);
+
 
     }
 
