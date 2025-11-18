@@ -11,4 +11,5 @@ public class Data
     public int getValue() {
         return value;
     }
+
 }

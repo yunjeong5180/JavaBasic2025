@@ -1,27 +1,25 @@
-package memory;
+package memory.review;
 
-public class JavaMemortMain2
+public class JavaMemoryMain1
 {
     public static void main(String[] args) {
         System.out.println("main start");
-        method1();
+        method1(10);
         System.out.println("main end");
-
     }
 
-    private static void method1() {
+    private static void method1(int m1) {
         System.out.println("method1 start");
-        Data data1 = new Data(10);
-        method2(data1);
+        System.out.println("m1=" + m1);
+        int cal = m1 * 2;
+        System.out.println("cal=" + cal);
+        method2(cal);
         System.out.println("method1 end");
-
     }
 
-    private static void method2(Data data2) {
+    private static void method2(int m2) {
         System.out.println("method2 start");
-        System.out.println("data.value= " + data2.getValue());
+        System.out.println("m2=" + m2);
         System.out.println("method2 end");
     }
-
-
 }
