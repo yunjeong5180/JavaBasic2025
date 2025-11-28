@@ -3,7 +3,7 @@ package static2;
 public class DecoData
 {
     private int instanceValue;
-    private  static int staticValue;
+    private static int staticValue;
 
     public static void staticCall()
     { // static은 static만 접근 가능 / static이 없는 인스턴스 변수나, 인스턴스 메서드에 접근하면 컴파일 요류가 발생
